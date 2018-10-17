@@ -6,5 +6,12 @@ body {
     height: 2rem;
   }
   .footer {
-      text-align: center
+      text-align: center;
+      background-color: powderblue;
+  }
+  div {
+    min-height: 2rem;
+    min-width: 2rem;
+    margin: 2rem;
+    border: 1px solid black;
   }
