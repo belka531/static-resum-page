@@ -1,38 +1,133 @@
 body {
-    background-color: gainsboro;
-    font-family: Arial, Helvetica, sans-serif
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
    }
 .social-media-button {
     height: 2rem;
   }
   .footer {
       text-align: center;
-      background-color: powderblue;
+      background-color: cadetblue;
   }
   div {
-    min-height: 2rem;
-    min-width: 2rem;
-    margin: 2rem;
+    display: block;
   }
   .main {
     display: flex;
     flex-flow: row;
   }
-  .sidebar {
-    flex-grow: 1;
-  }
-  
   .more-info {
-    flex-grow: 2;
+    flex-grow: 3;
+    padding: 2rem;
   }
   .sidebar {
     flex-grow: 1;
+    max-width: 30%;
+    margin: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
    .work-experience {
+    padding: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   .education {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem;
+    margin-top: 1rem;
   }
+  .header {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.pictureOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    margin: 0;
+    padding: 2rem;
+}
+.sectionTitle {
+    padding: 1rem;
+    color: cadetblue;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 15px;
+    font-weight: bold;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 30px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+p {
+    display: block;
+    margin-block-start: 3em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 0px;
+}
+li {
+    display: list-item;
+    text-align: left;
+}
+.divider {
+    margin: 2rem 0;
+}
+.myFoto {
+    display: block;
+    border-radius: 10%;
+    margin: 3rem 1.5rem;
+    width: 300px;
+    height: 300px;
+    
+}
+.experienceTitle {
+    color: cadetblue;
+}
+.contactInfo {
+    list-style: none;
+}
+.contactIcon {
+    height: 2rem;
+
+    margin: 0rem;
+}
